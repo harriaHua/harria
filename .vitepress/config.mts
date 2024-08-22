@@ -1,7 +1,16 @@
+/*
+ * @Description: 
+ * @Version: 0.1
+ * @Author: Harria
+ * @Date: 2024-08-22 14:15:03
+ * @LastEditors: Harria
+ * @LastEditTime: 2024-08-22 14:24:09
+ */
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/harria/',
   title: "Harria",
   description: "一个梦想是为国铸器和睡觉自由的个人站",
   themeConfig: {
